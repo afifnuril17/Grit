@@ -1,0 +1,385 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5629288553019239868
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5629288553019239870}
+  - component: {fileID: 5629288553019239871}
+  m_Layer: 0
+  m_Name: QuizManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5629288553019239870
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5629288553019239868}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.9323137, y: -0.479177, z: 90}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5629288553019239871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5629288553019239868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64d547698be6f14499a80882a6098152, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  quizUI: {fileID: 0}
+  questions:
+  - questionText: 
+    questionImage: {fileID: 21300000, guid: ea65a3f6476fb3d4b9b9098220691e2c, type: 3}
+    answers:
+    - answerName: A
+      answerText: 
+      answerImage: {fileID: 21300000, guid: 025a7d429df8fdd4d9eb7d270da3f541, type: 3}
+      isCorrect: 1
+    - answerName: B
+      answerText: 
+      answerImage: {fileID: 21300000, guid: 7f2f4fd3e6fb8ad42b3c5ec24020c577, type: 3}
+      isCorrect: 0
+    - answerName: C
+      answerText: 
+      answerImage: {fileID: 21300000, guid: 39d3d742461e92242b48a139202826d5, type: 3}
+      isCorrect: 0
+    - answerName: D
+      answerText: 
+      answerImage: {fileID: 21300000, guid: 4a0c698a072986843852facb7eb0bb9d, type: 3}
+      isCorrect: 0
+    - answerName: E
+      answerText: 
+      answerImage: {fileID: 21300000, guid: 95f2da5ff6d860e4d87a7b599d8b4294, type: 3}
+      isCorrect: 0
+  - questionText: 
+    questionImage: {fileID: 21300000, guid: 5117e08c5dca2e7468c017042f578cae, type: 3}
+    answers:
+    - answerName: A
+      answerText: 
+      answerImage: {fileID: 21300000, guid: 166ba6f76db82a443b75ceac13894298, type: 3}
+      isCorrect: 0
+    - answerName: B
+      answerText: 
+      answerImage: {fileID: 21300000, guid: 21bb610d733a6e3489126bb4f636cc56, type: 3}
+      isCorrect: 0
+    - answerName: C
+      answerText: 
+      answerImage: {fileID: 21300000, guid: 3617767519a136146a59861fb4b4cbd6, type: 3}
+      isCorrect: 1
+    - answerName: D
+      answerText: 
+      answerImage: {fileID: 21300000, guid: 6ba8282753b82af4e85b577d26a7d86b, type: 3}
+      isCorrect: 0
+    - answerName: E
+      answerText: 
+      answerImage: {fileID: 21300000, guid: 5ecc123dd11376c45b01e95dca84828c, type: 3}
+      isCorrect: 0
+  - questionText: 
+    questionImage: {fileID: 21300000, guid: 99586cfb4e49ca14ca684a4a07b24d2d, type: 3}
+    answers:
+    - answerName: A
+      answerText: 
+      answerImage: {fileID: 21300000, guid: 1bf5a025fe6c0aa4eaeecc0c539c4c95, type: 3}
+      isCorrect: 1
+    - answerName: B
+      answerText: 
+      answerImage: {fileID: 21300000, guid: 5e24e88f1f3846f42aeac1b22d61290b, type: 3}
+      isCorrect: 0
+    - answerName: C
+      answerText: 
+      answerImage: {fileID: 21300000, guid: 223cec68723d12a4387be1c67beb89d4, type: 3}
+      isCorrect: 0
+    - answerName: D
+      answerText: 
+      answerImage: {fileID: 21300000, guid: 70d69ccc235e04b4e9d6f8c4dc68f57f, type: 3}
+      isCorrect: 0
+    - answerName: E
+      answerText: 
+      answerImage: {fileID: 21300000, guid: 36baca243f8a25249a56a9dcd271ff6b, type: 3}
+      isCorrect: 0
+  - questionText: 
+    questionImage: {fileID: 21300000, guid: fe6d78229c44b7742842551e5f8b1b75, type: 3}
+    answers:
+    - answerName: A
+      answerText: 
+      answerImage: {fileID: 21300000, guid: 7c49a091b446e144c8457fed640adabc, type: 3}
+      isCorrect: 1
+    - answerName: B
+      answerText: 
+      answerImage: {fileID: 21300000, guid: f3c2fa9b75f654f4fa21a9f817dd6700, type: 3}
+      isCorrect: 0
+    - answerName: C
+      answerText: 
+      answerImage: {fileID: 21300000, guid: ce593be945e0cc043b87f989a6d1df9d, type: 3}
+      isCorrect: 0
+    - answerName: D
+      answerText: 
+      answerImage: {fileID: 21300000, guid: cbc16da5ddcf3084cb6096eebdaca5c4, type: 3}
+      isCorrect: 0
+    - answerName: D
+      answerText: 
+      answerImage: {fileID: 21300000, guid: 0fdbe665ceab1c34889557f9cba50e3b, type: 3}
+      isCorrect: 0
+  - questionText: 
+    questionImage: {fileID: 21300000, guid: 7f073d98ce1cbea4a8f723e01fed5ba5, type: 3}
+    answers:
+    - answerName: A
+      answerText: 
+      answerImage: {fileID: 21300000, guid: 14b9a1c24aae76640900ebeabfde0dc1, type: 3}
+      isCorrect: 0
+    - answerName: B
+      answerText: 
+      answerImage: {fileID: 21300000, guid: b401b68818df8ec41aad7ad5b779ae3d, type: 3}
+      isCorrect: 1
+    - answerName: C
+      answerText: 
+      answerImage: {fileID: 21300000, guid: d90cddc72bb9bdb41803548879e5ee67, type: 3}
+      isCorrect: 0
+    - answerName: D
+      answerText: 
+      answerImage: {fileID: 21300000, guid: f7c020b2800a1294fb604b7251a71e0c, type: 3}
+      isCorrect: 0
+    - answerName: E
+      answerText: 
+      answerImage: {fileID: 21300000, guid: 34d51050a7dbb804e83006d39271eaa6, type: 3}
+      isCorrect: 0
+  - questionText: 
+    questionImage: {fileID: 21300000, guid: 2002e70c0b7dbb94a89ac453c5155ba0, type: 3}
+    answers:
+    - answerName: A
+      answerText: 
+      answerImage: {fileID: 21300000, guid: 87ba83be596f027448faa88da0b6b0da, type: 3}
+      isCorrect: 1
+    - answerName: B
+      answerText: 
+      answerImage: {fileID: 21300000, guid: dae1c65e439bc3d49b3babb026883b72, type: 3}
+      isCorrect: 0
+    - answerName: C
+      answerText: 
+      answerImage: {fileID: 21300000, guid: 15283cfdbd19d8b4a8e16e33aee6b073, type: 3}
+      isCorrect: 0
+    - answerName: D
+      answerText: 
+      answerImage: {fileID: 21300000, guid: c98dd02d568f96e4a98e131e45195d1a, type: 3}
+      isCorrect: 0
+  - questionText: 
+    questionImage: {fileID: 21300000, guid: 84b85a3f6d0b34941af7d59584ada4ee, type: 3}
+    answers:
+    - answerName: A
+      answerText: 
+      answerImage: {fileID: 21300000, guid: d012687be65af9e4f88fa073f5f845b7, type: 3}
+      isCorrect: 0
+    - answerName: B
+      answerText: 
+      answerImage: {fileID: 21300000, guid: e878a375ac0aca0429d6e12a8a7734a6, type: 3}
+      isCorrect: 1
+    - answerName: C
+      answerText: 
+      answerImage: {fileID: 21300000, guid: 447fc0b22e57bce4b88ddc1c0949ea33, type: 3}
+      isCorrect: 0
+    - answerName: D
+      answerText: 
+      answerImage: {fileID: 21300000, guid: fbb9ffb44f580da48b66372009aa3f54, type: 3}
+      isCorrect: 0
+    - answerName: E
+      answerText: 
+      answerImage: {fileID: 21300000, guid: bd9fc4d091292f342b14393dfc776376, type: 3}
+      isCorrect: 0
+  - questionText: 
+    questionImage: {fileID: 21300000, guid: 02d83dc5359ff1d419a6a3e4f500c0e5, type: 3}
+    answers:
+    - answerName: A
+      answerText: 
+      answerImage: {fileID: 21300000, guid: a3dee4d1620723c469fb2e973f012cbf, type: 3}
+      isCorrect: 0
+    - answerName: B
+      answerText: 
+      answerImage: {fileID: 21300000, guid: f87aab568711d6b428e320e65d418f82, type: 3}
+      isCorrect: 0
+    - answerName: C
+      answerText: 
+      answerImage: {fileID: 21300000, guid: 94019c5a905ccf74b8661bfdd2f6903d, type: 3}
+      isCorrect: 1
+    - answerName: D
+      answerText: 
+      answerImage: {fileID: 21300000, guid: c22125c87da7f0a4892f0c8206238529, type: 3}
+      isCorrect: 0
+  - questionText: 
+    questionImage: {fileID: 21300000, guid: 78e43574d1371204fb43068529f1592e, type: 3}
+    answers:
+    - answerName: A
+      answerText: 
+      answerImage: {fileID: 21300000, guid: 677671364f9242a4da6659aab74b9a83, type: 3}
+      isCorrect: 0
+    - answerName: B
+      answerText: 
+      answerImage: {fileID: 21300000, guid: 0ec709c0e60081849b048b7b73bcc11c, type: 3}
+      isCorrect: 1
+    - answerName: C
+      answerText: 
+      answerImage: {fileID: 21300000, guid: 51681fab3d39e994cb40daedc3a60258, type: 3}
+      isCorrect: 0
+    - answerName: D
+      answerText: 
+      answerImage: {fileID: 21300000, guid: 04e2f4b67e1b8a849817d7dcdfdb906e, type: 3}
+      isCorrect: 0
+    - answerName: E
+      answerText: 
+      answerImage: {fileID: 21300000, guid: 6b9f8b2983aea4b449f0cd36e9392fe1, type: 3}
+      isCorrect: 0
+  - questionText: 
+    questionImage: {fileID: 21300000, guid: b017592b71c53fd4cb908ba92c1c8000, type: 3}
+    answers:
+    - answerName: A
+      answerText: 
+      answerImage: {fileID: 21300000, guid: a941d62d871359c438f18e45e23867a6, type: 3}
+      isCorrect: 0
+    - answerName: B
+      answerText: 
+      answerImage: {fileID: 21300000, guid: f36425bce6188084cad27b9a52b63165, type: 3}
+      isCorrect: 0
+    - answerName: C
+      answerText: 
+      answerImage: {fileID: 21300000, guid: 7a203c808dbbd48449587ef480c49b85, type: 3}
+      isCorrect: 0
+    - answerName: D
+      answerText: 
+      answerImage: {fileID: 21300000, guid: 730de592eb530e4448cee10c618c6173, type: 3}
+      isCorrect: 0
+    - answerName: E
+      answerText: 
+      answerImage: {fileID: 21300000, guid: 43912f428ac614d409223cd95eb25a70, type: 3}
+      isCorrect: 1
+  - questionText: 
+    questionImage: {fileID: 21300000, guid: b79bef85b1499d94a82dc8877182cabf, type: 3}
+    answers:
+    - answerName: A
+      answerText: 
+      answerImage: {fileID: 21300000, guid: 7e5c622c94827434eba2ab2e195f852b, type: 3}
+      isCorrect: 0
+    - answerName: B
+      answerText: 
+      answerImage: {fileID: 21300000, guid: c463521f081f30947989614d9c88353a, type: 3}
+      isCorrect: 0
+    - answerName: C
+      answerText: 
+      answerImage: {fileID: 21300000, guid: 0695ac3012c30d44a90b93202e064ef8, type: 3}
+      isCorrect: 0
+    - answerName: D
+      answerText: 
+      answerImage: {fileID: 21300000, guid: 04de13075d4d6944e988b5d65528a4ce, type: 3}
+      isCorrect: 1
+    - answerName: E
+      answerText: 
+      answerImage: {fileID: 21300000, guid: 2191cba4f46320a4a887d466a3257e56, type: 3}
+      isCorrect: 0
+  - questionText: 
+    questionImage: {fileID: 21300000, guid: 8315d7386ea810b46bf5519b0f695fda, type: 3}
+    answers:
+    - answerName: A
+      answerText: 
+      answerImage: {fileID: 21300000, guid: 34d4c53239ea900408a98cfd1f82d88d, type: 3}
+      isCorrect: 0
+    - answerName: B
+      answerText: 
+      answerImage: {fileID: 21300000, guid: d02f143de10448040ae2bfb8308fb387, type: 3}
+      isCorrect: 0
+    - answerName: C
+      answerText: 
+      answerImage: {fileID: 21300000, guid: 8d253473f090ffb499142445a6acda23, type: 3}
+      isCorrect: 1
+    - answerName: D
+      answerText: 
+      answerImage: {fileID: 21300000, guid: c227c09bbb9ec1245a4f4634d2f5acbd, type: 3}
+      isCorrect: 0
+  - questionText: 
+    questionImage: {fileID: 21300000, guid: 0ca4451e2c1e98f4e9eb1f6b35e09886, type: 3}
+    answers:
+    - answerName: A
+      answerText: 
+      answerImage: {fileID: 21300000, guid: 1fe0294498e05f84ab6cc5e66fdcfb6c, type: 3}
+      isCorrect: 0
+    - answerName: B
+      answerText: 
+      answerImage: {fileID: 21300000, guid: dcafb2628ab439a4aacabbc70b2cf87a, type: 3}
+      isCorrect: 0
+    - answerName: C
+      answerText: 
+      answerImage: {fileID: 21300000, guid: f7ba3b23ea22b614fb25471aa9476dc3, type: 3}
+      isCorrect: 0
+    - answerName: D
+      answerText: 
+      answerImage: {fileID: 21300000, guid: 0963b1a877d38824a9bd07b0e432e7e1, type: 3}
+      isCorrect: 0
+    - answerName: E
+      answerText: 
+      answerImage: {fileID: 21300000, guid: 81f806c53b5aec4429427d048c502245, type: 3}
+      isCorrect: 1
+  - questionText: 
+    questionImage: {fileID: 21300000, guid: 7020b0c6e98660d47bbffce12ddb521c, type: 3}
+    answers:
+    - answerName: A
+      answerText: 
+      answerImage: {fileID: 21300000, guid: 08aa02b9485ed9346965fa29987b6e7d, type: 3}
+      isCorrect: 0
+    - answerName: B
+      answerText: 
+      answerImage: {fileID: 21300000, guid: 3f5ae3407ad56f647987f2c0f73b26ec, type: 3}
+      isCorrect: 1
+    - answerName: C
+      answerText: 
+      answerImage: {fileID: 21300000, guid: 14e2b2316c072404ebc0e02d3b1dfffd, type: 3}
+      isCorrect: 0
+    - answerName: D
+      answerText: 
+      answerImage: {fileID: 21300000, guid: 1c178f8343128c44491c0aada530d8d9, type: 3}
+      isCorrect: 0
+    - answerName: E
+      answerText: 
+      answerImage: {fileID: 21300000, guid: 8fe2e42970d05f64b9773f6d8d15bb43, type: 3}
+      isCorrect: 0
+  - questionText: 
+    questionImage: {fileID: 21300000, guid: c7c3869e07335fd40b1243ca58fca357, type: 3}
+    answers:
+    - answerName: A
+      answerText: 
+      answerImage: {fileID: 21300000, guid: 9907c1c1922e0ef46ac61fdac4906212, type: 3}
+      isCorrect: 1
+    - answerName: B
+      answerText: 
+      answerImage: {fileID: 21300000, guid: 14cfb6f38e9243c4d8335c89859f32c6, type: 3}
+      isCorrect: 0
+    - answerName: C
+      answerText: 
+      answerImage: {fileID: 21300000, guid: 37d5d479704210e40ab2408a098350b4, type: 3}
+      isCorrect: 0
+    - answerName: D
+      answerText: 
+      answerImage: {fileID: 21300000, guid: 0bc64c4af813ed94b812a2641e08d3db, type: 3}
+      isCorrect: 0
+    - answerName: E
+      answerText: 
+      answerImage: {fileID: 21300000, guid: 0ebdcea5c6052c14abff855bae05be17, type: 3}
+      isCorrect: 0
+  player: {fileID: 0}
+  questionCanvas: {fileID: 0}
+  questionIndex: 0
+  quizController: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: 1f4b10d745fbd5f4db82de22bfeadb4b, type: 3}

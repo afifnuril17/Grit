@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/LoginScene.unity
+    guid: 74ed5ebe375ee974e9b855d3262b4cbd
+  - enabled: 1
+    path: Assets/Scenes/IntroScene.unity
+    guid: b26c60126d901c443b399d71be5c2207
+  - enabled: 1
+    path: Assets/Scenes/BeforeGameScene.unity
+    guid: 1bbf5d1e4c7c73f46967384b8477f248
+  - enabled: 1
+    path: Assets/Scenes/BeforeFirstScene.unity
+    guid: 1858b43779c33214fab596f3380a4808
+  - enabled: 1
+    path: Assets/Scenes/FirstScene.unity
+    guid: a5b7d40ffe75a6a4d909428f7e40d4e9
+  - enabled: 1
+    path: Assets/Scenes/BeforeSecondScene.unity
+    guid: c3ccba1a06f9251469def5e7b1032a41
+  - enabled: 1
+    path: Assets/Scenes/SecondScene.unity
+    guid: b672ed9fe5246ca49b45a997e3106742
+  - enabled: 1
+    path: Assets/Scenes/BeforeThirdScene.unity
+    guid: bc493aa7ad4b0aa4591a5ee68eb109c9
+  - enabled: 1
+    path: Assets/Scenes/ThirdScene.unity
+    guid: f4f1d6fb89eb58847a792b802cf3392d
+  - enabled: 1
+    path: Assets/Scenes/BeforeFourthScene.unity
+    guid: d5a34472a16016b4885d849b8306e056
+  - enabled: 1
+    path: Assets/Scenes/FourthScene.unity
+    guid: afa6686620f5dbe4ba26fbea1a678eb8
+  - enabled: 1
+    path: Assets/Scenes/BeforeFifthScene.unity
+    guid: 482f2a3fd6a8ae44490acda410b86f55
+  - enabled: 1
+    path: Assets/Scenes/FifthScene.unity
+    guid: 2c0df1e0a9776cb40be7c3a691da596b
+  - enabled: 1
+    path: Assets/Scenes/BeforeSixthScene.unity
+    guid: 8353b070d6ba3da4fb2600437ee5054d
+  - enabled: 1
+    path: Assets/Scenes/SixthScene.unity
+    guid: af230d2e0f29ae646be6fd690c2a37c5
+  - enabled: 1
+    path: Assets/Scenes/BeforeSeventhScene.unity
+    guid: 8441cc6fd8c491448b6cc00da749e1cc
+  - enabled: 1
+    path: Assets/Scenes/SeventhScene.unity
+    guid: de9ec65b420e32447a4d2abe0d69b507
+  - enabled: 1
+    path: Assets/Scenes/BeforeEightScene.unity
+    guid: 9f131bf31ef65e24a8eb4402865cffaf
+  - enabled: 1
+    path: Assets/Scenes/EightScene.unity
+    guid: f7da72a732170e04ebf56f965aced12f
+  - enabled: 1
+    path: Assets/Scenes/BeforeNinthScene.unity
+    guid: 6e8901a0400cba9419bcfbdac999a469
+  - enabled: 1
+    path: Assets/Scenes/NinthScene.unity
+    guid: e573690f211ee0c4fb3fd584b01433c8
+  - enabled: 1
+    path: Assets/Scenes/BeforeTenthScene.unity
+    guid: 0de9bf51770b2c14bb2cb1d19537b101
+  - enabled: 1
+    path: Assets/Scenes/TenthScene.unity
+    guid: f5519e96c0701b94bb64b64e6fab6af7
+  - enabled: 1
+    path: Assets/Scenes/FinalScene.unity
+    guid: 961ee6d411d30a348864ead33c29bc22
+  - enabled: 1
+    path: Assets/Scenes/GameOverScene.unity
+    guid: f247c0f1ff6e07147a7bbe84ba1b9203
+  m_configObjects: {}
